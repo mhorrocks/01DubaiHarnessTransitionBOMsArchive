@@ -1,0 +1,27 @@
+04/10/2020 05:27:51 => [Debug] The restore inputs for '01DubaiHarnessTransitionBOMs' have not changed. No further actions are required to complete the restore.
+04/10/2020 05:27:51 => [Warning] NU3034: Package 'Newtonsoft.Json 12.0.3' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.
+04/10/2020 05:27:51 => [Warning] NU3034: Package 'Microsoft.AspNet.WebApi.Core 5.2.7' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.
+04/10/2020 05:27:51 => [Warning] NU3034: Package 'Microsoft.AspNet.WebApi.Client 5.2.7' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.
+04/10/2020 05:27:51 => [Warning] NU3034: Package 'Microsoft.AspNet.WebApi.Owin 5.2.7' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.
+04/10/2020 05:27:51 => [Warning] NU3034: Package 'Owin 1.0' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.
+04/10/2020 05:27:51 => [Warning] NU3034: Package 'Microsoft.Owin 2.0.2' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.
+04/10/2020 05:27:51 => [Warning] NU3034: Package 'Microsoft.Owin.Host.HttpListener 2.0.2' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.
+04/10/2020 05:27:51 => [Warning] NU3034: Package 'Microsoft.Owin.Hosting 2.0.2' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.
+04/10/2020 05:27:51 => [Warning] NU3034: Package 'Castle.Core 4.3.1' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.
+04/10/2020 05:27:51 => [Warning] NU3034: Package 'Prism.Core 7.2.0.1422' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.
+04/10/2020 05:27:51 => [Warning] NU3034: Package 'System.IO.Abstractions 3.0.10' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.
+04/10/2020 05:27:51 => [Warning] NU3034: Package 'DotNetSeleniumExtras.PageObjects 3.11.0' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.
+04/10/2020 05:27:51 => [Warning] NU3034: Package 'Selenium.Support 3.141.0' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.
+04/10/2020 05:27:51 => [Warning] NU3034: Package 'Microsoft.AspNet.WebApi.OwinSelfHost 5.2.7' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.
+04/10/2020 05:27:51 => [Warning] NU3034: Package 'Appium.WebDriver 4.1.1' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.
+04/10/2020 05:27:51 => [Warning] NU3034: Package 'Selenium.WebDriver 3.141.0' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.
+04/10/2020 05:27:51 => [Warning] NU1603: UiPath.MobileAutomation.Activities 20.4.0-beta.853242 depends on UiPath.Platform (>= 20.4.0-beta.844852) but UiPath.Platform 20.4.0-beta.844852 was not found. An approximate best match of UiPath.Platform 20.4.0-beta.851122 was resolved.
+04/10/2020 05:27:51 => [Warning] NU1608: Detected package version outside of dependency constraint: Microsoft.Graph 1.12.0 requires Newtonsoft.Json (>= 6.0.1 && < 12.0.0) but version Newtonsoft.Json 12.0.3 was resolved.
+04/10/2020 05:27:51 => [Warning] NU1608: Detected package version outside of dependency constraint: Microsoft.Graph.Core 1.12.0 requires Newtonsoft.Json (>= 6.0.1 && < 12.0.0) but version Newtonsoft.Json 12.0.3 was resolved.
+04/10/2020 05:27:51 => [Info] Assets file has not changed. Skipping assets file writing. Path: H:\UIPath\UIPath workflow Files\Panasonic\01DubaiHarnessTransitionBOMs\01DubaiHarnessTransitionBOMs\.local\AllDependencies.json
+04/10/2020 05:27:51 => [Debug] No-Op restore. The cache will not be updated. Path: H:\UIPath\UIPath workflow Files\Panasonic\01DubaiHarnessTransitionBOMs\01DubaiHarnessTransitionBOMs\.local\nuget.cache
+04/10/2020 06:56:08 => [Error] Archive (old or failed versions)/TestAnchor.xaml: Anchor must be provided by a Find activity
+04/10/2020 06:56:08 => [Error] Archive (old or failed versions)/TestAnchor.xaml: Action must be provided
+04/10/2020 06:56:11 => [Error] Archive (old or failed versions)/ReadARqtyTable.xaml: Value for a required activity argument 'Row' was not supplied.
+04/10/2020 06:56:11 => [Error] ReadEmail.xaml: Compiler error(s) encountered processing expression "ReadEmail started".
+End of expression expected.

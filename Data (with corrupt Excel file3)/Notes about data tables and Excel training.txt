@@ -1,0 +1,38 @@
+Questions:
+Looking for comment format (part of REFramework). I think we should add prerequisites and output but not sure.
+
+Excel & Data Tables Part 1
+https://academy.uipath.com/learn/course/511/play/5261/lesson-9-excel-data-tables-part1-excel-and-data-tables-basic-interactions;lp=35
+Excel application scope activity
+Un-check the visible option in Excel application scope activity to work in background
+Use output datatable activity to convert to text and display in message box activity
+Data tables are zero indexed so first column is 0
+Maybe use a data table join activity to match the dash number table to the AR qty table to get the AR qty for that dash number. Or use look up data table activity
+
+Excel & Data Tables Part 2
+https://academy.uipath.com/learn/course/511/play/5262/lesson-9-excel-data-tables-part-2-data-process;lp=35
+Calculate AR from multiple AR tables
+     Create a data table including component number, dash number and length and repeat that for each AR table. Then, maybe use filter database to find all rows containing component number and dash number. We can then sum the lengths
+
+Try:
+Regex (regular expression)
+Linq to filter data
+Read pages 27-34 of REFramework documentation.pdf in documentation folder of project
+Post question on UIPath about addressing cells in excel by row and cell counts
+
+Errors:
+If - AR header is blank: Object reference not set to an instance of an object.
+
+Questions:
+Can I search activities using wildcards?
+Don't need blank cell counter to capture 3 blank cells becuase read row only reads the cells to the end of the data
+Using datatable instead of Excel to capture cell address
+
+Post to UIPath:
+     Tags: Excel
+     Question: How do I identify/copy a 2 column range in Excel based on whether a cell above the first column is blank
+     Versions: Studio 2019.10.1 Enterprise edition Windows installer, Excel (office 365)
+
+     Content: I want to combine multiple different Excel ranges that are 2 columns wide by variable number of rows from one worksheet in an Excel file to a single data table that is 2 columns wide. There are variable number of these ranges in worksheet (between 1 and 5). There is usually a gap of 1 column between the ranges but not always and they have not been assigned as tables in Excel. One solution I have tried is to read the header row from Excel into a datatable and then performing a for each that determines whether the each value blank. I ignore the blanks and that gives me the header values. If I could figure out how to include the column those non-blanks come from then I might be able to go back and read the ranges below them but that is where I'm stuck.
+
+The header of those Excel ranges is a merged cell so I end up with a header on only 1 of the 2 columns
